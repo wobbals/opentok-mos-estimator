@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'OpenTokMOS_Example' do
+  pod 'OpenTokMOS', :path => '../'
+
+  target 'OpenTokMOS_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
