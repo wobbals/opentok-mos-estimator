@@ -1,0 +1,6 @@
+framework module OpenTokMOS {
+  umbrella header "OpenTokMOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

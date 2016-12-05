@@ -1,0 +1,6 @@
+framework module Pods_OpenTokMOS_Tests {
+  umbrella header "Pods-OpenTokMOS_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
