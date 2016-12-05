@@ -7,8 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
-@class OTSubscriberKit;
+#import <OpenTok/OpenTok.h>
 
 @interface OTSubscriberMOS : NSObject <OTSubscriberKitNetworkStatsDelegate>
 

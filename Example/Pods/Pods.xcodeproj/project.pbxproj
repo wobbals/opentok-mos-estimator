@@ -14,8 +14,9 @@
 		5FE334A13C86D5656A0670CDB98A64FE /* Pods-OpenTokMOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46795DC8DA8B58891E531A9498151A90 /* Pods-OpenTokMOS_Tests-dummy.m */; };
 		70A1F3D4789D086EC52BAACFCE4A8AC9 /* Pods-OpenTokMOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6464E0D77DF0796561A471398B1FDA2 /* Pods-OpenTokMOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		815559D58895FA51F95D2352C2A26F65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		8B2403A79E3EFA2F8BB60430E170E75A /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = EC872653C8123443F3B5CA1ED3D23C70 /* ReplaceMe.m */; };
 		9328B71AE19AE2E71D4F3E2B01ABD46D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		D45FA8C71DF6129B00D443AF /* OTSubscriberMOS.h in Headers */ = {isa = PBXBuildFile; fileRef = D45FA8C51DF6129B00D443AF /* OTSubscriberMOS.h */; };
+		D45FA8C81DF6129B00D443AF /* OTSubscriberMOS.m in Sources */ = {isa = PBXBuildFile; fileRef = D45FA8C61DF6129B00D443AF /* OTSubscriberMOS.m */; };
 		EDAE45CB6A7F90F85022F0C98288273B /* Pods-OpenTokMOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA84B550C3CE4C170137D731171F510E /* Pods-OpenTokMOS_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -53,10 +54,11 @@
 		C4B4B54269C9C406BD1676FC133B4415 /* Pods-OpenTokMOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-OpenTokMOS_Example.modulemap"; sourceTree = "<group>"; };
 		C97A555D6F57133A7C5E9ABD5506EB32 /* Pods-OpenTokMOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OpenTokMOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D45FA8C51DF6129B00D443AF /* OTSubscriberMOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTSubscriberMOS.h; sourceTree = "<group>"; };
+		D45FA8C61DF6129B00D443AF /* OTSubscriberMOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTSubscriberMOS.m; sourceTree = "<group>"; };
 		D8D49114C973D5B407114A324FE9BF24 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDD0AD4068E5C78F1E8BFB332EBF81CE /* Pods_OpenTokMOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenTokMOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E35A927276073D83F8F90A0041D8EB87 /* Pods-OpenTokMOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenTokMOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		EC872653C8123443F3B5CA1ED3D23C70 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		F100B20C1E3C2FDAEC3B65035E6E035C /* OpenTokMOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OpenTokMOS-dummy.m"; sourceTree = "<group>"; };
 		F2A7435478FFDCF430EECD4F3DB6EE15 /* Pods-OpenTokMOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenTokMOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		F6464E0D77DF0796561A471398B1FDA2 /* Pods-OpenTokMOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OpenTokMOS_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -127,7 +129,8 @@
 		45D2E86C335847C6D736FD718763D55C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				EC872653C8123443F3B5CA1ED3D23C70 /* ReplaceMe.m */,
+				D45FA8C51DF6129B00D443AF /* OTSubscriberMOS.h */,
+				D45FA8C61DF6129B00D443AF /* OTSubscriberMOS.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23FEBBD1CCC83581B209F832B4DB85E0 /* OpenTokMOS-umbrella.h in Headers */,
+				D45FA8C71DF6129B00D443AF /* OTSubscriberMOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,8 +349,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D45FA8C81DF6129B00D443AF /* OTSubscriberMOS.m in Sources */,
 				37A6BF05746942BBF5CB72B93DC79BBA /* OpenTokMOS-dummy.m in Sources */,
-				8B2403A79E3EFA2F8BB60430E170E75A /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

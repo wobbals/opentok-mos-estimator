@@ -21,12 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/OpenTokMOS'
+  s.homepage         = 'https://github.com/wobbals/opentok-mos-estimator'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'Apache 2.0', :file => 'LICENSE' }
   s.author           = { 'Charley Robinson' => 'charley@tokbox.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/OpenTokMOS.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/wobbals/opentok-mos-estimator', :branch => 'master' }
 
   s.ios.deployment_target = '8.0'
 
@@ -38,5 +37,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'OpenTok', '>= 2.9'
 end
