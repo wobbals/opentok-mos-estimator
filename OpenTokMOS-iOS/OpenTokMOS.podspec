@@ -32,7 +32,7 @@ quality score.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'OpenTokMOS/OpenTokMOS/Classes/**/*'
+  s.source_files = 'OpenTokMOS-iOS/OpenTokMOS/Classes/**/*'
   
   # s.resource_bundles = {
   #   'OpenTokMOS' => ['OpenTokMOS/Assets/*.png']
