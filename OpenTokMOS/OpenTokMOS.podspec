@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OpenTokMOS'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'MOS estimator for OpenTok subscribers'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ quality score.
   s.homepage         = 'https://github.com/wobbals/opentok-mos-estimator'
   s.license          = { :type => 'Apache 2.0', :file => 'LICENSE' }
   s.author           = { 'Charley Robinson' => 'charley@tokbox.com' }
-  s.source           = { :git => 'https://github.com/wobbals/opentok-mos-estimator', :branch => 'master' }
+  s.source           = { :git => 'https://github.com/wobbals/opentok-mos-estimator.git', :tag => "#{s.version}" }
 
   s.ios.deployment_target = '10.0'
 

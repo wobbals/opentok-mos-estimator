@@ -139,7 +139,7 @@ audioNetworkStatsUpdated:(OTSubscriberKitAudioNetworkStats*)stats
     OTSubscriberKitAudioNetworkStats* lastStats =
     [_audioStats objectAtIndex:_audioStats.count - 2];
 
-    NSInteger totalAudioPackets =
+    uint64_t totalAudioPackets =
     (currentStats.audioPacketsLost - lastStats.audioPacketsLost) +
     (currentStats.audioPacketsReceived - lastStats.audioPacketsReceived);
     if (0 == totalAudioPackets) {
