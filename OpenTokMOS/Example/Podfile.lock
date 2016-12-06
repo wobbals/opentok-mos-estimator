@@ -1,0 +1,19 @@
+PODS:
+  - OpenTok (2.9.2)
+  - OpenTokMOS (0.1.0):
+    - OpenTok (>= 2.9)
+
+DEPENDENCIES:
+  - OpenTokMOS (from `../`)
+
+EXTERNAL SOURCES:
+  OpenTokMOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OpenTok: aa00296d8c48972cbbd18e2e3954955ea6fb9501
+  OpenTokMOS: 750a72170763c3f45a4c4f18dc923097abef9c21
+
+PODFILE CHECKSUM: b197c915aed984ef3162bf58f4968450ae6381a7
+
+COCOAPODS: 1.1.1

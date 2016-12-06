@@ -1,0 +1,27 @@
+{
+  "name": "OpenTokMOS",
+  "version": "0.1.0",
+  "summary": "MOS estimator for OpenTok subscribers",
+  "description": "Subscriber media quality scores can be estimated in real-time throughout the\nlife of the subscriber, or accumulated once at the end of the subscriber.\nBy using the network stats callbacks, this project aims to produce a simple\nmodule that can extend the functionality of the subscriber with a simple\nquality score.",
+  "homepage": "https://github.com/wobbals/opentok-mos-estimator",
+  "license": {
+    "type": "Apache 2.0",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Charley Robinson": "charley@tokbox.com"
+  },
+  "source": {
+    "git": "https://github.com/wobbals/opentok-mos-estimator",
+    "branch": "master"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "OpenTokMOS/Classes/**/*",
+  "dependencies": {
+    "OpenTok": [
+      ">= 2.9"
+    ]
+  }
+}

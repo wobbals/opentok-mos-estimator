@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B737462451EB70336BDDE3BAE259044493FA29B1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1F06AD81E23A4F2076010C224207974B26C277E1" : 9223372036854775807,
+    "B737462451EB70336BDDE3BAE259044493FA29B1" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BF863CD5-54C1-42CC-BA88-CB114FB40A4D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1F06AD81E23A4F2076010C224207974B26C277E1" : "objc-sdk-src\/",
+    "B737462451EB70336BDDE3BAE259044493FA29B1" : "opentok-mos-estimator\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "OpenTokMOS",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "OpenTokMOS\/Example\/OpenTokMOS.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Nitrillo\/objc-sdk-src.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1F06AD81E23A4F2076010C224207974B26C277E1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:wobbals\/opentok-mos-estimator.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B737462451EB70336BDDE3BAE259044493FA29B1"
+    }
+  ]
+}

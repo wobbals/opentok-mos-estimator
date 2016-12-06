@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		050C892A74CDF950C49E7501533677E5 /* Pods-OpenTokMOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E78036BBEB0F5BBAB297ED6F26494A /* Pods-OpenTokMOS_Example-dummy.m */; };
+		3B9233D0291B74C0A0608053CF95CEE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		456ECC4511C5B89DA233177BE8AC7292 /* OTSubscriberMOS.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AD84999FC3435B6467B9D9CF45D81C /* OTSubscriberMOS.m */; };
+		77C5F1F10C2711D59EAF9650A92A23F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		78C459F495A893880AF35A4FBFD410D7 /* Pods-OpenTokMOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C6D978FB45CAEBB6D058AAFCB6FD22 /* Pods-OpenTokMOS_Tests-dummy.m */; };
+		D31A5D5D1F8541B7466923A1C25250B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		E452F273702F347C7E3A67D72BB55C37 /* OpenTokMOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC51B161D3F4A75A28CBD42570A5CD66 /* OpenTokMOS-dummy.m */; };
+		F37C709D817A23CCA3FC3EF8F5BA94B1 /* OTSubscriberMOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 82CF93906160CFBCB60DF756DE9C3A2D /* OTSubscriberMOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D921288DBBE6DA21E26E36F679BE5A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FACD37670C0066ACC78ECD39703E3C8;
+			remoteInfo = OpenTokMOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1158A0E6CA4517D660AD11F929641298 /* libOpenTokMOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOpenTokMOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		12C6D978FB45CAEBB6D058AAFCB6FD22 /* Pods-OpenTokMOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OpenTokMOS_Tests-dummy.m"; sourceTree = "<group>"; };
+		1C29DE3618E7C3E09694BCFD2C87031D /* Pods-OpenTokMOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OpenTokMOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2D10A62600368D8BCC9B168CE7BF4CDA /* libPods-OpenTokMOS_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenTokMOS_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D9B043AA13AD03FB74DF24F04479EBF /* Pods-OpenTokMOS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OpenTokMOS_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3D8D93E13BBD0E8CB388D93CBCAE68C4 /* Pods-OpenTokMOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenTokMOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3F6BA7133CDA16EBF75FA8DA73F15F59 /* OpenTok.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenTok.framework; sourceTree = "<group>"; };
+		42694F2B298B469A01010D3AC051DA5B /* Pods-OpenTokMOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OpenTokMOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		467BE56A782291995171396F679E4EE8 /* libPods-OpenTokMOS_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OpenTokMOS_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76E1CEA99BD59D547777C53A84253C40 /* Pods-OpenTokMOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenTokMOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		82CF93906160CFBCB60DF756DE9C3A2D /* OTSubscriberMOS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OTSubscriberMOS.h; sourceTree = "<group>"; };
+		86E78036BBEB0F5BBAB297ED6F26494A /* Pods-OpenTokMOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OpenTokMOS_Example-dummy.m"; sourceTree = "<group>"; };
+		88EB64E474E82FC8EB3BAC407E773C44 /* OpenTokMOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OpenTokMOS-prefix.pch"; sourceTree = "<group>"; };
+		8B3FCC5E941462D9875C70C0F1152C13 /* Pods-OpenTokMOS_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OpenTokMOS_Tests-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C87A8E9FCEEF32205B5BBF9EF31DDDE9 /* OpenTokMOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OpenTokMOS.xcconfig; sourceTree = "<group>"; };
+		C9D8F8140DC105DB41D9078364DD4764 /* Pods-OpenTokMOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenTokMOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CE75D19F037144DF1B3E53E234A66BED /* Pods-OpenTokMOS_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OpenTokMOS_Example-resources.sh"; sourceTree = "<group>"; };
+		D4AD84999FC3435B6467B9D9CF45D81C /* OTSubscriberMOS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OTSubscriberMOS.m; sourceTree = "<group>"; };
+		D9BEF66DBAE1B9E41DE41FB249571380 /* Pods-OpenTokMOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenTokMOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DBF23CE0876B1B9F888F297694624A75 /* Pods-OpenTokMOS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenTokMOS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EC51B161D3F4A75A28CBD42570A5CD66 /* OpenTokMOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OpenTokMOS-dummy.m"; sourceTree = "<group>"; };
+		F016E1C295B2059727D6EC3D6624CAFD /* Pods-OpenTokMOS_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OpenTokMOS_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		F6CF4477005A0AE578412C78681EB1A2 /* Pods-OpenTokMOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenTokMOS_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28EBFE8A565E3FE8D241A22605DB1F8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77C5F1F10C2711D59EAF9650A92A23F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39785CD57A338620E5C64674BC45F0EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D31A5D5D1F8541B7466923A1C25250B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E563E1133B47A8218EA901D548098EAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B9233D0291B74C0A0608053CF95CEE3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AB3AEE338A919288A18EB42ED612DC8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				82CF93906160CFBCB60DF756DE9C3A2D /* OTSubscriberMOS.h */,
+				D4AD84999FC3435B6467B9D9CF45D81C /* OTSubscriberMOS.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0B90AA99B3A5191AACE403541B3AEEB5 /* Pods-OpenTokMOS_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1C29DE3618E7C3E09694BCFD2C87031D /* Pods-OpenTokMOS_Tests-acknowledgements.markdown */,
+				DBF23CE0876B1B9F888F297694624A75 /* Pods-OpenTokMOS_Tests-acknowledgements.plist */,
+				12C6D978FB45CAEBB6D058AAFCB6FD22 /* Pods-OpenTokMOS_Tests-dummy.m */,
+				F016E1C295B2059727D6EC3D6624CAFD /* Pods-OpenTokMOS_Tests-frameworks.sh */,
+				8B3FCC5E941462D9875C70C0F1152C13 /* Pods-OpenTokMOS_Tests-resources.sh */,
+				D9BEF66DBAE1B9E41DE41FB249571380 /* Pods-OpenTokMOS_Tests.debug.xcconfig */,
+				76E1CEA99BD59D547777C53A84253C40 /* Pods-OpenTokMOS_Tests.release.xcconfig */,
+			);
+			name = "Pods-OpenTokMOS_Tests";
+			path = "Target Support Files/Pods-OpenTokMOS_Tests";
+			sourceTree = "<group>";
+		};
+		291F7B00B1A6C4D4A6B733105CBC7F9E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6614A4E919269916F5DC65DABE2C115C /* OpenTokMOS */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6090032C838E3164E7553A63672573E7 /* Pods-OpenTokMOS_Example */ = {
+			isa = PBXGroup;
+			children = (
+				42694F2B298B469A01010D3AC051DA5B /* Pods-OpenTokMOS_Example-acknowledgements.markdown */,
+				3D8D93E13BBD0E8CB388D93CBCAE68C4 /* Pods-OpenTokMOS_Example-acknowledgements.plist */,
+				86E78036BBEB0F5BBAB297ED6F26494A /* Pods-OpenTokMOS_Example-dummy.m */,
+				2D9B043AA13AD03FB74DF24F04479EBF /* Pods-OpenTokMOS_Example-frameworks.sh */,
+				CE75D19F037144DF1B3E53E234A66BED /* Pods-OpenTokMOS_Example-resources.sh */,
+				C9D8F8140DC105DB41D9078364DD4764 /* Pods-OpenTokMOS_Example.debug.xcconfig */,
+				F6CF4477005A0AE578412C78681EB1A2 /* Pods-OpenTokMOS_Example.release.xcconfig */,
+			);
+			name = "Pods-OpenTokMOS_Example";
+			path = "Target Support Files/Pods-OpenTokMOS_Example";
+			sourceTree = "<group>";
+		};
+		62532C5D4BFF5D5A89165E613DD47A82 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6090032C838E3164E7553A63672573E7 /* Pods-OpenTokMOS_Example */,
+				0B90AA99B3A5191AACE403541B3AEEB5 /* Pods-OpenTokMOS_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6614A4E919269916F5DC65DABE2C115C /* OpenTokMOS */ = {
+			isa = PBXGroup;
+			children = (
+				B927E6EAB1A0541199A9D74D7263E7AA /* OpenTokMOS */,
+				7F476447B056A3CDF36992C29D360A1A /* Support Files */,
+			);
+			name = OpenTokMOS;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6D5298F7A56BBBA6485A1835829A60B0 /* OpenTok */ = {
+			isa = PBXGroup;
+			children = (
+				E1658FF23B63AE05533C82B9122A463A /* Frameworks */,
+			);
+			path = OpenTok;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				291F7B00B1A6C4D4A6B733105CBC7F9E /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C5E6EBA5D78424BA468E339EC7E6C57E /* Pods */,
+				A5D357B53BE4875053C0F60960F5E877 /* Products */,
+				62532C5D4BFF5D5A89165E613DD47A82 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F476447B056A3CDF36992C29D360A1A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C87A8E9FCEEF32205B5BBF9EF31DDDE9 /* OpenTokMOS.xcconfig */,
+				EC51B161D3F4A75A28CBD42570A5CD66 /* OpenTokMOS-dummy.m */,
+				88EB64E474E82FC8EB3BAC407E773C44 /* OpenTokMOS-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/OpenTokMOS";
+			sourceTree = "<group>";
+		};
+		A5D357B53BE4875053C0F60960F5E877 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1158A0E6CA4517D660AD11F929641298 /* libOpenTokMOS.a */,
+				467BE56A782291995171396F679E4EE8 /* libPods-OpenTokMOS_Example.a */,
+				2D10A62600368D8BCC9B168CE7BF4CDA /* libPods-OpenTokMOS_Tests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B927E6EAB1A0541199A9D74D7263E7AA /* OpenTokMOS */ = {
+			isa = PBXGroup;
+			children = (
+				0AB3AEE338A919288A18EB42ED612DC8 /* Classes */,
+			);
+			path = OpenTokMOS;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5E6EBA5D78424BA468E339EC7E6C57E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D5298F7A56BBBA6485A1835829A60B0 /* OpenTok */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E1658FF23B63AE05533C82B9122A463A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F6BA7133CDA16EBF75FA8DA73F15F59 /* OpenTok.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		ED4AAD9944CFA98D020ED3EED6AB69E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F37C709D817A23CCA3FC3EF8F5BA94B1 /* OTSubscriberMOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8FACD37670C0066ACC78ECD39703E3C8 /* OpenTokMOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12081F29B9BB5477072BBE9450911BB8 /* Build configuration list for PBXNativeTarget "OpenTokMOS" */;
+			buildPhases = (
+				8B5ADAD6BD1DDD133E44111F87A9664F /* Sources */,
+				E563E1133B47A8218EA901D548098EAA /* Frameworks */,
+				ED4AAD9944CFA98D020ED3EED6AB69E0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenTokMOS;
+			productName = OpenTokMOS;
+			productReference = 1158A0E6CA4517D660AD11F929641298 /* libOpenTokMOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A8E6DB3092F5CBEE7DB8D50EA836EE19 /* Pods-OpenTokMOS_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 054C4688BD4D076888F503FA5154FAB3 /* Build configuration list for PBXNativeTarget "Pods-OpenTokMOS_Tests" */;
+			buildPhases = (
+				C49E3F19DBFF83C583F36E2C49337CE0 /* Sources */,
+				28EBFE8A565E3FE8D241A22605DB1F8E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-OpenTokMOS_Tests";
+			productName = "Pods-OpenTokMOS_Tests";
+			productReference = 2D10A62600368D8BCC9B168CE7BF4CDA /* libPods-OpenTokMOS_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C8DC966A6104182568110CBADD0A680B /* Pods-OpenTokMOS_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7F63578FFAD77CCA5E91C4D37087D51 /* Build configuration list for PBXNativeTarget "Pods-OpenTokMOS_Example" */;
+			buildPhases = (
+				D33B5619B823DDC15F657CD025CFDFBC /* Sources */,
+				39785CD57A338620E5C64674BC45F0EC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B08B109F3F0CE095A9BE15E912F80ACC /* PBXTargetDependency */,
+			);
+			name = "Pods-OpenTokMOS_Example";
+			productName = "Pods-OpenTokMOS_Example";
+			productReference = 467BE56A782291995171396F679E4EE8 /* libPods-OpenTokMOS_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A5D357B53BE4875053C0F60960F5E877 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FACD37670C0066ACC78ECD39703E3C8 /* OpenTokMOS */,
+				C8DC966A6104182568110CBADD0A680B /* Pods-OpenTokMOS_Example */,
+				A8E6DB3092F5CBEE7DB8D50EA836EE19 /* Pods-OpenTokMOS_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B5ADAD6BD1DDD133E44111F87A9664F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E452F273702F347C7E3A67D72BB55C37 /* OpenTokMOS-dummy.m in Sources */,
+				456ECC4511C5B89DA233177BE8AC7292 /* OTSubscriberMOS.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49E3F19DBFF83C583F36E2C49337CE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C459F495A893880AF35A4FBFD410D7 /* Pods-OpenTokMOS_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33B5619B823DDC15F657CD025CFDFBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				050C892A74CDF950C49E7501533677E5 /* Pods-OpenTokMOS_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B08B109F3F0CE095A9BE15E912F80ACC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OpenTokMOS;
+			target = 8FACD37670C0066ACC78ECD39703E3C8 /* OpenTokMOS */;
+			targetProxy = 8D921288DBBE6DA21E26E36F679BE5A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D824338A4A68609EFF9ADF00632EABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C87A8E9FCEEF32205B5BBF9EF31DDDE9 /* OpenTokMOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OpenTokMOS/OpenTokMOS-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		39FBFBBEA8E1716486EC6E30380981F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9D8F8140DC105DB41D9078364DD4764 /* Pods-OpenTokMOS_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6C9805C8C332A4103A9F6E82A461BA01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6CF4477005A0AE578412C78681EB1A2 /* Pods-OpenTokMOS_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		89326D0AFBE0594EC9A38E8BFD33D742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76E1CEA99BD59D547777C53A84253C40 /* Pods-OpenTokMOS_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91F26554BFC58F435F7243A4197D6343 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C87A8E9FCEEF32205B5BBF9EF31DDDE9 /* OpenTokMOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OpenTokMOS/OpenTokMOS-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BF1FCA1A132100A23DF841D30BDC28F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9BEF66DBAE1B9E41DE41FB249571380 /* Pods-OpenTokMOS_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		054C4688BD4D076888F503FA5154FAB3 /* Build configuration list for PBXNativeTarget "Pods-OpenTokMOS_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF1FCA1A132100A23DF841D30BDC28F4 /* Debug */,
+				89326D0AFBE0594EC9A38E8BFD33D742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12081F29B9BB5477072BBE9450911BB8 /* Build configuration list for PBXNativeTarget "OpenTokMOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91F26554BFC58F435F7243A4197D6343 /* Debug */,
+				0D824338A4A68609EFF9ADF00632EABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7F63578FFAD77CCA5E91C4D37087D51 /* Build configuration list for PBXNativeTarget "Pods-OpenTokMOS_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39FBFBBEA8E1716486EC6E30380981F0 /* Debug */,
+				6C9805C8C332A4103A9F6E82A461BA01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
