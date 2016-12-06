@@ -9,8 +9,8 @@
 #import "OTSubscriberMOS.h"
 
 @protocol OTStatsCollector <NSObject>
-- (NSInteger)videoSSRC;
-- (NSInteger)audioSSRC;
+- (int64_t)videoSSRC;
+- (int64_t)audioSSRC;
 - (NSString*)statForKey:(NSString*)key
             lastUpdated:(struct timeval*)lastUpdated;
 - (NSArray*)statsKeys;
