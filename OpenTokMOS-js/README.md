@@ -2,7 +2,10 @@
 
 ## Usage
 
-* Include `index.js` in your app controller.
+* Include `OpenTokMOS.js` in your app controller:
+```js
+<script src='/OpenTokMOS.js' charset="utf-8"></script>
+```
 
 * After creating a subscriber, initialize an MOS estimator: 
 ```js
