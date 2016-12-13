@@ -93,7 +93,7 @@ function calculateAudioScore(subscriber, stats) {
   return score;
 }
 
-exports.createWithSubscriber = function(subscriber) {
+function SubscriberMOS(subscriber) {
   var intervalId;
   var statsLog = [];
   var audioScoresLog = [];

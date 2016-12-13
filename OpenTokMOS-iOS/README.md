@@ -1,22 +1,25 @@
 # OpenTokMOS
 
-[![CI Status](http://img.shields.io/travis/Charley Robinson/OpenTokMOS.svg?style=flat)](https://travis-ci.org/Charley Robinson/OpenTokMOS)
-[![Version](https://img.shields.io/cocoapods/v/OpenTokMOS.svg?style=flat)](http://cocoapods.org/pods/OpenTokMOS)
-[![License](https://img.shields.io/cocoapods/l/OpenTokMOS.svg?style=flat)](http://cocoapods.org/pods/OpenTokMOS)
-[![Platform](https://img.shields.io/cocoapods/p/OpenTokMOS.svg?style=flat)](http://cocoapods.org/pods/OpenTokMOS)
-
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+To run the example project, clone the repo, and run `pod install` from the 
+Example directory first.
 
-## Requirements
+## Usage
+
+Wherever an `OTSubscriber` instance would be used, import the header from this
+pod and use the `OTSubscriberMOS` subclass. Scores begin gathering as soon as
+data is available, and can be retrieved at will. It is assumed to only be
+necessary to gather a score at the end of the life of the subscriber, but scores
+should be valid any time after the first stats gathering interval.
 
 ## Installation
 
-OpenTokMOS is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+OpenTokMOS is available through [CocoaPods](http://cocoapods.org), *in a private
+specs repository*. To install it, simply add the following line to your Podfile:
 
 ```ruby
+source 'https://github.com/wobbals/Specs.git'
 pod "OpenTokMOS"
 ```
 
@@ -26,4 +29,5 @@ Charley Robinson, charley@tokbox.com
 
 ## License
 
-OpenTokMOS is available under the MIT license. See the LICENSE file for more info.
+OpenTokMOS is available under the Apache 2.0 license. 
+See the LICENSE file for more info.
