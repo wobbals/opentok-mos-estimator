@@ -6,7 +6,7 @@ function calculateVideoScore(subscriber, stats) {
     return Math.pow(10, y);
   }
   
-  const MIN_VIDEO_BITRATE = 30000;
+  var MIN_VIDEO_BITRATE = 30000;
   if (stats.length < 2) {
     return 0;
   }
@@ -37,11 +37,11 @@ function calculateVideoScore(subscriber, stats) {
 
 function calculateAudioScore(subscriber, stats) {
   var audioScore = function(rtt, plr) {
-    const LOCAL_DELAY = 20; //20 msecs: typical frame duration
+    var LOCAL_DELAY = 20; //20 msecs: typical frame duration
     function H(x) { return (x < 0 ? 0 : 1) }
-    const a = 0 // ILBC: a=10
-    const b = 19.8
-    const c = 29.7
+    var a = 0 // ILBC: a=10
+    var b = 19.8
+    var c = 29.7
  
     //R = 94.2 − Id − Ie
     var R = function(rtt, packetLoss) {
@@ -99,21 +99,23 @@ function SubscriberMOS(subscriber) {
   var audioScoresLog = [];
   var videoScoresLog = [];
   // this must be at least two, but could be higher to perform further analysis
-  const STATS_LOG_LENGTH = 2; 
+  var STATS_LOG_LENGTH = 2; 
   // how far back in time would you like to go?
-  const SCORES_LOG_LENGTH = 1000;
-  const SCORE_INTERVAL = 1000;
+  var SCORES_LOG_LENGTH = 1000;
+  var SCORE_INTERVAL = 1000;
   var obj = {};
   obj.audioScore = function() {
     var sum = 0;
-    for (let score of audioScoresLog) {
+    for (var i = 0; i < audioScoresLog.length; i++) {
+      var score = audioScoresLog[i];
       sum += score;
     }
     return sum / audioScoresLog.length;
   }
   obj.videoScore = function() {
     var sum = 0;
-    for (let score of videoScoresLog) {
+    for (var i = 0; i < videoScoresLog.length; i++) {
+      var score = videoScoresLog[i];
       sum += score;
     }
     return sum / videoScoresLog.length;
